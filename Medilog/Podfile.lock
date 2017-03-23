@@ -1,0 +1,21 @@
+PODS:
+  - ReachabilitySwift (3)
+  - SlideMenuControllerSwift (3.0.1)
+  - Toaster (2.0.1)
+  - Unbox (2.3.1)
+
+DEPENDENCIES:
+  - ReachabilitySwift (~> 3)
+  - SlideMenuControllerSwift
+  - Toaster
+  - Unbox
+
+SPEC CHECKSUMS:
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  SlideMenuControllerSwift: 9a163b16d54afab734add42858cba7ef7c307755
+  Toaster: be65cd48e93a525b2a9cc4bd25a2bfc900e02d9f
+  Unbox: 96e54c15284b97244a1daf8ea560f648dd08f0db
+
+PODFILE CHECKSUM: a0b9c5e3e1705f27e179e14a9d39f1252d973481
+
+COCOAPODS: 1.2.0

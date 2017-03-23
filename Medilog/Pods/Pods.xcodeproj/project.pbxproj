@@ -1,0 +1,1073 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		047BC795EFB34B8C2571839B5AC86194 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 600E2F454EDC10F8690DBE60CD6467AB /* UIKit.framework */; };
+		1FCFBA046DBDDCB6738B55140F8986D6 /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 795D9476A44C6BA28F6C9385A37CC88A /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B89128EE90A6FA67D8C31DFA90FEB4 /* Unbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1D78B4C07842DA5D556169B23BE8390 /* Unbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23994FE4C97D29DE6D8F81FE772E7F9E /* ToastCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62064FD31B774D5793CF4839DEFED68C /* ToastCenter.swift */; };
+		32A1944A3B23EC0E57970E3EDC0D371A /* Pods-Medilog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCBF2A57DED0F03511A39854956E004 /* Pods-Medilog-dummy.m */; };
+		3D1CC1A8752028D6DFA23884C71FE974 /* ToastWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506730C12DF00A8E29BDEB507FF5ADA0 /* ToastWindow.swift */; };
+		434E21E252551EFFDACCB5E26D3174CB /* Pods-Medilog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DD94FE7E6D675AD69AE29412C3D3BC9 /* Pods-Medilog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49E7DC24A104B5BAB8F0A3064BD97344 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD25B7090884CFDA824F93EAF6FB049 /* SystemConfiguration.framework */; };
+		6C6045805F49EFC375E5A2F968FEEAA2 /* Toaster-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28CBBA294874B0F09F9D4BB3A7124FBB /* Toaster-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72AE4DBD6CBB7670A9A477756373A509 /* Unbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7F4D5EBD54B1D81E0C56C986A1DD70 /* Unbox-dummy.m */; };
+		79CBE04F03BD1A807CB67D52A4FBC4B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 623F40900DA9726DB996AB6A8D0DA940 /* Foundation.framework */; };
+		7AB344ABF52DC800C1279EAE068E2C93 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C52F3B5AE2B2AD900755B330E8043F /* ToastView.swift */; };
+		7C7FE69E7E562D6E7BC3D700EE358407 /* Unbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FB9B1FB0F8A473F7010BA0AEF73446 /* Unbox.swift */; };
+		7EAF7976D3305449E1A2B96D49B42E03 /* SlideMenuControllerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1FF6DA3D38CB0AD45F269E23B8337F /* SlideMenuControllerSwift-dummy.m */; };
+		7FCB41D1196FCF14CDFBC3E2B5C9C92C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A952C9EEBE0C68DC2BBFD8A3F01A22A /* CoreGraphics.framework */; };
+		81B305BDC5F257866FA16EFF29D58C31 /* Toaster-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DB5C5D4E50C17835745C71218FF6D1 /* Toaster-dummy.m */; };
+		82FA7DB40F63C816FA6B8A9A8C028ABD /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EAB65227D3FA8A99A1A43DF9EB93A1 /* ReachabilitySwift-dummy.m */; };
+		88B72C30BFCA8CE93724B1596CAA561B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FE7DF5EF56AE04F1E78C1ED5A085BF /* QuartzCore.framework */; };
+		923F3FF89215254D7C4D282630AE7AF9 /* SlideMenuControllerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1E06481955419CF530709A0DB220728 /* SlideMenuControllerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9470CA09E236F7F6D1D4201220C34E22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 623F40900DA9726DB996AB6A8D0DA940 /* Foundation.framework */; };
+		94C73F70EB98E1FEB9D3AE6B728A70AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 623F40900DA9726DB996AB6A8D0DA940 /* Foundation.framework */; };
+		9C33071BA3324ECEA3A81BCE74CD21F9 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2146B438E58AA8730E53F69BE392A4D2 /* Toast.swift */; };
+		B3F3CBBE62970FCAD6496AC3ED4E88B1 /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4454ED3C901B8D5B1AD3B894D0B86B33 /* SlideMenuController.swift */; };
+		C1A1D8644EDEEEEBFAACC0D56ECD4773 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = F032073A25594D5E202CC8914C60C838 /* Reachability.swift */; };
+		D887E4A884660A444BE58E56ADDC9568 /* Toaster.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DB1B6AF625C13D3CE24DDA260218DB5 /* Toaster.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBA435CD4DCC9ECF229248BCB6B42E40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 623F40900DA9726DB996AB6A8D0DA940 /* Foundation.framework */; };
+		FEC4643E9EB50944AEDB45CF3C07266A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 623F40900DA9726DB996AB6A8D0DA940 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03B68A17342889B25F7B8A298A1D8072 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B1D2BF478EC437CF886536CBDBBB265;
+			remoteInfo = ReachabilitySwift;
+		};
+		07BD6294E17F96E38E96BC3A76DDB78D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62EE81D93BBEB00FEBF3403D2A6431AE;
+			remoteInfo = SlideMenuControllerSwift;
+		};
+		21A13E7C41212BD41F24681AAEEE1F5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31BBC177AC0D4ACC2C6BC1CBD97AC783;
+			remoteInfo = Toaster;
+		};
+		CBC2565B717643750CA917B10640686A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BC6D6AF2D99FF0DD7FD413FED03CF05;
+			remoteInfo = Unbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03FB9B1FB0F8A473F7010BA0AEF73446 /* Unbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Unbox.swift; path = Sources/Unbox.swift; sourceTree = "<group>"; };
+		0565AF3B1FF5DE92119B152700E0F2BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A952C9EEBE0C68DC2BBFD8A3F01A22A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		0DD94FE7E6D675AD69AE29412C3D3BC9 /* Pods-Medilog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Medilog-umbrella.h"; sourceTree = "<group>"; };
+		12AA0504226184E199FC48FE6C223663 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2146B438E58AA8730E53F69BE392A4D2 /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Sources/Toast.swift; sourceTree = "<group>"; };
+		261B0176EBE6C2A80A37316658EC680D /* SlideMenuControllerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlideMenuControllerSwift-prefix.pch"; sourceTree = "<group>"; };
+		28CBBA294874B0F09F9D4BB3A7124FBB /* Toaster-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toaster-umbrella.h"; sourceTree = "<group>"; };
+		3129BEA6562C1AE9E94E866FCB549E24 /* Pods-Medilog-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Medilog-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3516BA8F349E7BF94270F90632097402 /* SlideMenuControllerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SlideMenuControllerSwift.xcconfig; sourceTree = "<group>"; };
+		37B59E81FCCAA9E22EE761331048588E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		421B6BD8E9B42BD20C0936091BD511A0 /* SlideMenuControllerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SlideMenuControllerSwift.framework; path = SlideMenuControllerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4454ED3C901B8D5B1AD3B894D0B86B33 /* SlideMenuController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlideMenuController.swift; path = Source/SlideMenuController.swift; sourceTree = "<group>"; };
+		4BBEA64EFF8CA8BFFC89971BF06CE975 /* Unbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Unbox-prefix.pch"; sourceTree = "<group>"; };
+		4C1FF6DA3D38CB0AD45F269E23B8337F /* SlideMenuControllerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SlideMenuControllerSwift-dummy.m"; sourceTree = "<group>"; };
+		4DB1B6AF625C13D3CE24DDA260218DB5 /* Toaster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Toaster.h; path = Sources/Toaster.h; sourceTree = "<group>"; };
+		4F4E68697010BCDACBFD3C61FAD389D2 /* ReachabilitySwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.xcconfig; sourceTree = "<group>"; };
+		506730C12DF00A8E29BDEB507FF5ADA0 /* ToastWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToastWindow.swift; path = Sources/ToastWindow.swift; sourceTree = "<group>"; };
+		600E2F454EDC10F8690DBE60CD6467AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		62064FD31B774D5793CF4839DEFED68C /* ToastCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToastCenter.swift; path = Sources/ToastCenter.swift; sourceTree = "<group>"; };
+		623F40900DA9726DB996AB6A8D0DA940 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		63641E265DE27A2656C3E36C329CF4F2 /* Pods-Medilog-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Medilog-acknowledgements.plist"; sourceTree = "<group>"; };
+		6382C121E480734FC99D75D291E93624 /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
+		6541C061FFFB903FA94A3B4FF6351641 /* SlideMenuControllerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SlideMenuControllerSwift.modulemap; sourceTree = "<group>"; };
+		6638A082A98AE07390F086E4C4451F3C /* Toaster.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Toaster.modulemap; sourceTree = "<group>"; };
+		6A7F4D5EBD54B1D81E0C56C986A1DD70 /* Unbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Unbox-dummy.m"; sourceTree = "<group>"; };
+		6DD25B7090884CFDA824F93EAF6FB049 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		71E33A47358AB6C7C8F97ED12ED322C7 /* Pods-Medilog-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Medilog-frameworks.sh"; sourceTree = "<group>"; };
+		795D9476A44C6BA28F6C9385A37CC88A /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
+		7D6CC1B61ED7BA0FE9FAD339E1A116EA /* Unbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Unbox.xcconfig; sourceTree = "<group>"; };
+		85C52F3B5AE2B2AD900755B330E8043F /* ToastView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToastView.swift; path = Sources/ToastView.swift; sourceTree = "<group>"; };
+		87D131E986822134A584DF5B1D8D7DEA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1F75307163BD815ECBF908262DA87C /* ReachabilitySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReachabilitySwift.framework; path = ReachabilitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94223E656697104FB6756C10E864582E /* Toaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Toaster.framework; path = Toaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94DB5C5D4E50C17835745C71218FF6D1 /* Toaster-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toaster-dummy.m"; sourceTree = "<group>"; };
+		9FCBF2A57DED0F03511A39854956E004 /* Pods-Medilog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Medilog-dummy.m"; sourceTree = "<group>"; };
+		A0C4AA165FCFB223CE729CCF7A82B7B7 /* Toaster-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toaster-prefix.pch"; sourceTree = "<group>"; };
+		A19DDE72D02A46755D4FFFA0BE6665F2 /* Pods-Medilog-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Medilog-resources.sh"; sourceTree = "<group>"; };
+		A4517002B2059B082326F0E334602378 /* Pods_Medilog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Medilog.framework; path = "Pods-Medilog.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A628CFB19D9E25C603BF9851817636AE /* Unbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Unbox.modulemap; sourceTree = "<group>"; };
+		A96A0CD73AB8E45323F6CD48F14BB3F5 /* Pods-Medilog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Medilog.modulemap"; sourceTree = "<group>"; };
+		AF1C5DAF5E4AAB4C1FD013A1406026F0 /* Unbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Unbox.framework; path = Unbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1E06481955419CF530709A0DB220728 /* SlideMenuControllerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlideMenuControllerSwift-umbrella.h"; sourceTree = "<group>"; };
+		C3D08E2DB13937C7B7A15C501F3BE5BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCCF7B1652439775F5DE28012CB5450E /* Pods-Medilog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Medilog.release.xcconfig"; sourceTree = "<group>"; };
+		D3FE7DF5EF56AE04F1E78C1ED5A085BF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		F01BD38981342A447ADB50B24963A97D /* Toaster.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Toaster.xcconfig; sourceTree = "<group>"; };
+		F032073A25594D5E202CC8914C60C838 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Reachability/Reachability.swift; sourceTree = "<group>"; };
+		F0F3A10A0D1201E85D35EC87F3903E18 /* Pods-Medilog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Medilog.debug.xcconfig"; sourceTree = "<group>"; };
+		F1D78B4C07842DA5D556169B23BE8390 /* Unbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Unbox-umbrella.h"; sourceTree = "<group>"; };
+		F2342FF38E7F05908A0332443D8FEA64 /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
+		F8EAB65227D3FA8A99A1A43DF9EB93A1 /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BDAAD32BF0460450E0434955D533EDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79CBE04F03BD1A807CB67D52A4FBC4B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A450BE92B52085144DCABB67BE47679E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA435CD4DCC9ECF229248BCB6B42E40 /* Foundation.framework in Frameworks */,
+				88B72C30BFCA8CE93724B1596CAA561B /* QuartzCore.framework in Frameworks */,
+				047BC795EFB34B8C2571839B5AC86194 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B16CC31A7648CBFD1DD9F9314B0734E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FCB41D1196FCF14CDFBC3E2B5C9C92C /* CoreGraphics.framework in Frameworks */,
+				FEC4643E9EB50944AEDB45CF3C07266A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E61AF88237A34057269908AC4983315D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C73F70EB98E1FEB9D3AE6B728A70AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E78F1DBDFECC10816A480F0B40B9CE5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9470CA09E236F7F6D1D4201220C34E22 /* Foundation.framework in Frameworks */,
+				49E7DC24A104B5BAB8F0A3064BD97344 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D2F9FC17A8193F1D3486CC58384992B /* ReachabilitySwift */ = {
+			isa = PBXGroup;
+			children = (
+				F032073A25594D5E202CC8914C60C838 /* Reachability.swift */,
+				73688F373707822EAC2BB9D9B9D87D48 /* Support Files */,
+			);
+			name = ReachabilitySwift;
+			path = ReachabilitySwift;
+			sourceTree = "<group>";
+		};
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20C5E9F54D47ECCB824D471170368280 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20C5E9F54D47ECCB824D471170368280 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0A952C9EEBE0C68DC2BBFD8A3F01A22A /* CoreGraphics.framework */,
+				623F40900DA9726DB996AB6A8D0DA940 /* Foundation.framework */,
+				D3FE7DF5EF56AE04F1E78C1ED5A085BF /* QuartzCore.framework */,
+				6DD25B7090884CFDA824F93EAF6FB049 /* SystemConfiguration.framework */,
+				600E2F454EDC10F8690DBE60CD6467AB /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		258EFE22950979306D54C07F1B14EC57 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				37B59E81FCCAA9E22EE761331048588E /* Info.plist */,
+				A628CFB19D9E25C603BF9851817636AE /* Unbox.modulemap */,
+				7D6CC1B61ED7BA0FE9FAD339E1A116EA /* Unbox.xcconfig */,
+				6A7F4D5EBD54B1D81E0C56C986A1DD70 /* Unbox-dummy.m */,
+				4BBEA64EFF8CA8BFFC89971BF06CE975 /* Unbox-prefix.pch */,
+				F1D78B4C07842DA5D556169B23BE8390 /* Unbox-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Unbox";
+			sourceTree = "<group>";
+		};
+		35E35EF50CC82AA87C64490780C4EF9F /* SlideMenuControllerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				4454ED3C901B8D5B1AD3B894D0B86B33 /* SlideMenuController.swift */,
+				A2B425F609EF761AFEFBB78AE8AA7CDA /* Support Files */,
+			);
+			name = SlideMenuControllerSwift;
+			path = SlideMenuControllerSwift;
+			sourceTree = "<group>";
+		};
+		52ECC5C48993B78CC50557EF4E03683A /* Toaster */ = {
+			isa = PBXGroup;
+			children = (
+				2146B438E58AA8730E53F69BE392A4D2 /* Toast.swift */,
+				62064FD31B774D5793CF4839DEFED68C /* ToastCenter.swift */,
+				4DB1B6AF625C13D3CE24DDA260218DB5 /* Toaster.h */,
+				85C52F3B5AE2B2AD900755B330E8043F /* ToastView.swift */,
+				506730C12DF00A8E29BDEB507FF5ADA0 /* ToastWindow.swift */,
+				72B05C04BCE2CE687C72A070A45FB3E8 /* Support Files */,
+			);
+			name = Toaster;
+			path = Toaster;
+			sourceTree = "<group>";
+		};
+		63EC7DA0F4C50D362606415ADC816C1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D2F9FC17A8193F1D3486CC58384992B /* ReachabilitySwift */,
+				35E35EF50CC82AA87C64490780C4EF9F /* SlideMenuControllerSwift */,
+				52ECC5C48993B78CC50557EF4E03683A /* Toaster */,
+				DA0CF5E9DF390E7CCECFCC5415C9F44C /* Unbox */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		72B05C04BCE2CE687C72A070A45FB3E8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				12AA0504226184E199FC48FE6C223663 /* Info.plist */,
+				6638A082A98AE07390F086E4C4451F3C /* Toaster.modulemap */,
+				F01BD38981342A447ADB50B24963A97D /* Toaster.xcconfig */,
+				94DB5C5D4E50C17835745C71218FF6D1 /* Toaster-dummy.m */,
+				A0C4AA165FCFB223CE729CCF7A82B7B7 /* Toaster-prefix.pch */,
+				28CBBA294874B0F09F9D4BB3A7124FBB /* Toaster-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Toaster";
+			sourceTree = "<group>";
+		};
+		73688F373707822EAC2BB9D9B9D87D48 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87D131E986822134A584DF5B1D8D7DEA /* Info.plist */,
+				F2342FF38E7F05908A0332443D8FEA64 /* ReachabilitySwift.modulemap */,
+				4F4E68697010BCDACBFD3C61FAD389D2 /* ReachabilitySwift.xcconfig */,
+				F8EAB65227D3FA8A99A1A43DF9EB93A1 /* ReachabilitySwift-dummy.m */,
+				6382C121E480734FC99D75D291E93624 /* ReachabilitySwift-prefix.pch */,
+				795D9476A44C6BA28F6C9385A37CC88A /* ReachabilitySwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ReachabilitySwift";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				63EC7DA0F4C50D362606415ADC816C1C /* Pods */,
+				97C0541FF3A78D99CB6E9B838C05662C /* Products */,
+				9CD7D83DEDD5B3E10F0AD8ECC48BC8B9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		97C0541FF3A78D99CB6E9B838C05662C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4517002B2059B082326F0E334602378 /* Pods_Medilog.framework */,
+				8D1F75307163BD815ECBF908262DA87C /* ReachabilitySwift.framework */,
+				421B6BD8E9B42BD20C0936091BD511A0 /* SlideMenuControllerSwift.framework */,
+				94223E656697104FB6756C10E864582E /* Toaster.framework */,
+				AF1C5DAF5E4AAB4C1FD013A1406026F0 /* Unbox.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CD7D83DEDD5B3E10F0AD8ECC48BC8B9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED51E0E0E33B83C583D18127C946AA54 /* Pods-Medilog */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A2B425F609EF761AFEFBB78AE8AA7CDA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3D08E2DB13937C7B7A15C501F3BE5BB /* Info.plist */,
+				6541C061FFFB903FA94A3B4FF6351641 /* SlideMenuControllerSwift.modulemap */,
+				3516BA8F349E7BF94270F90632097402 /* SlideMenuControllerSwift.xcconfig */,
+				4C1FF6DA3D38CB0AD45F269E23B8337F /* SlideMenuControllerSwift-dummy.m */,
+				261B0176EBE6C2A80A37316658EC680D /* SlideMenuControllerSwift-prefix.pch */,
+				C1E06481955419CF530709A0DB220728 /* SlideMenuControllerSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SlideMenuControllerSwift";
+			sourceTree = "<group>";
+		};
+		DA0CF5E9DF390E7CCECFCC5415C9F44C /* Unbox */ = {
+			isa = PBXGroup;
+			children = (
+				03FB9B1FB0F8A473F7010BA0AEF73446 /* Unbox.swift */,
+				258EFE22950979306D54C07F1B14EC57 /* Support Files */,
+			);
+			name = Unbox;
+			path = Unbox;
+			sourceTree = "<group>";
+		};
+		ED51E0E0E33B83C583D18127C946AA54 /* Pods-Medilog */ = {
+			isa = PBXGroup;
+			children = (
+				0565AF3B1FF5DE92119B152700E0F2BA /* Info.plist */,
+				A96A0CD73AB8E45323F6CD48F14BB3F5 /* Pods-Medilog.modulemap */,
+				3129BEA6562C1AE9E94E866FCB549E24 /* Pods-Medilog-acknowledgements.markdown */,
+				63641E265DE27A2656C3E36C329CF4F2 /* Pods-Medilog-acknowledgements.plist */,
+				9FCBF2A57DED0F03511A39854956E004 /* Pods-Medilog-dummy.m */,
+				71E33A47358AB6C7C8F97ED12ED322C7 /* Pods-Medilog-frameworks.sh */,
+				A19DDE72D02A46755D4FFFA0BE6665F2 /* Pods-Medilog-resources.sh */,
+				0DD94FE7E6D675AD69AE29412C3D3BC9 /* Pods-Medilog-umbrella.h */,
+				F0F3A10A0D1201E85D35EC87F3903E18 /* Pods-Medilog.debug.xcconfig */,
+				CCCF7B1652439775F5DE28012CB5450E /* Pods-Medilog.release.xcconfig */,
+			);
+			name = "Pods-Medilog";
+			path = "Target Support Files/Pods-Medilog";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		370F8BB2D9DA8C989E3C3142355B088F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923F3FF89215254D7C4D282630AE7AF9 /* SlideMenuControllerSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BDD01A85AA0B678C8BBD4C83B599506 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				434E21E252551EFFDACCB5E26D3174CB /* Pods-Medilog-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		703C4A2090CE2E670EAC3BE90245ACF7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FCFBA046DBDDCB6738B55140F8986D6 /* ReachabilitySwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EA4297C42AF4B930559CFD32AE576D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B89128EE90A6FA67D8C31DFA90FEB4 /* Unbox-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97DBE7EF214A5B4B0ACE241E2616E991 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C6045805F49EFC375E5A2F968FEEAA2 /* Toaster-umbrella.h in Headers */,
+				D887E4A884660A444BE58E56ADDC9568 /* Toaster.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2BC6D6AF2D99FF0DD7FD413FED03CF05 /* Unbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75B0C9894C9F232DB0F7913F2A68CE15 /* Build configuration list for PBXNativeTarget "Unbox" */;
+			buildPhases = (
+				168116B6C333047D4FB8F0D7179EBDF7 /* Sources */,
+				B16CC31A7648CBFD1DD9F9314B0734E4 /* Frameworks */,
+				7EA4297C42AF4B930559CFD32AE576D9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Unbox;
+			productName = Unbox;
+			productReference = AF1C5DAF5E4AAB4C1FD013A1406026F0 /* Unbox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		31BBC177AC0D4ACC2C6BC1CBD97AC783 /* Toaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 223140B6694A097723F4E77C37CF54AA /* Build configuration list for PBXNativeTarget "Toaster" */;
+			buildPhases = (
+				89457896EEA0AFCEC79EA1A627DE98C2 /* Sources */,
+				A450BE92B52085144DCABB67BE47679E /* Frameworks */,
+				97DBE7EF214A5B4B0ACE241E2616E991 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Toaster;
+			productName = Toaster;
+			productReference = 94223E656697104FB6756C10E864582E /* Toaster.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4B1D2BF478EC437CF886536CBDBBB265 /* ReachabilitySwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27961DBFF9DD6B10D74FDFDB5D2FE6D4 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */;
+			buildPhases = (
+				61B45CB637A09E6ABAF5833DC1193459 /* Sources */,
+				E78F1DBDFECC10816A480F0B40B9CE5F /* Frameworks */,
+				703C4A2090CE2E670EAC3BE90245ACF7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReachabilitySwift;
+			productName = ReachabilitySwift;
+			productReference = 8D1F75307163BD815ECBF908262DA87C /* ReachabilitySwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6278AEE094D5B7DBEBBE5D60EFAA308B /* Pods-Medilog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A136264E441983F2E67A55A68209C45 /* Build configuration list for PBXNativeTarget "Pods-Medilog" */;
+			buildPhases = (
+				A819E4FB510737ECA9501E77C65DA7D5 /* Sources */,
+				7BDAAD32BF0460450E0434955D533EDE /* Frameworks */,
+				4BDD01A85AA0B678C8BBD4C83B599506 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D02FA03DE7D71EB478AAE161D3D469E9 /* PBXTargetDependency */,
+				8DC9E94A84D41E4B78E927F16FE591D7 /* PBXTargetDependency */,
+				111E1A8902D5B671C10169FAC230BBF0 /* PBXTargetDependency */,
+				A84E7864503C8710187A59D6D2B03D09 /* PBXTargetDependency */,
+			);
+			name = "Pods-Medilog";
+			productName = "Pods-Medilog";
+			productReference = A4517002B2059B082326F0E334602378 /* Pods_Medilog.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		62EE81D93BBEB00FEBF3403D2A6431AE /* SlideMenuControllerSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1022DD7DE948B180E7D97AE0ECB74BC8 /* Build configuration list for PBXNativeTarget "SlideMenuControllerSwift" */;
+			buildPhases = (
+				9D31C137D809ED9A17BA312FF7431F0B /* Sources */,
+				E61AF88237A34057269908AC4983315D /* Frameworks */,
+				370F8BB2D9DA8C989E3C3142355B088F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlideMenuControllerSwift;
+			productName = SlideMenuControllerSwift;
+			productReference = 421B6BD8E9B42BD20C0936091BD511A0 /* SlideMenuControllerSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 97C0541FF3A78D99CB6E9B838C05662C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6278AEE094D5B7DBEBBE5D60EFAA308B /* Pods-Medilog */,
+				4B1D2BF478EC437CF886536CBDBBB265 /* ReachabilitySwift */,
+				62EE81D93BBEB00FEBF3403D2A6431AE /* SlideMenuControllerSwift */,
+				31BBC177AC0D4ACC2C6BC1CBD97AC783 /* Toaster */,
+				2BC6D6AF2D99FF0DD7FD413FED03CF05 /* Unbox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		168116B6C333047D4FB8F0D7179EBDF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72AE4DBD6CBB7670A9A477756373A509 /* Unbox-dummy.m in Sources */,
+				7C7FE69E7E562D6E7BC3D700EE358407 /* Unbox.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B45CB637A09E6ABAF5833DC1193459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1A1D8644EDEEEEBFAACC0D56ECD4773 /* Reachability.swift in Sources */,
+				82FA7DB40F63C816FA6B8A9A8C028ABD /* ReachabilitySwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89457896EEA0AFCEC79EA1A627DE98C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C33071BA3324ECEA3A81BCE74CD21F9 /* Toast.swift in Sources */,
+				23994FE4C97D29DE6D8F81FE772E7F9E /* ToastCenter.swift in Sources */,
+				81B305BDC5F257866FA16EFF29D58C31 /* Toaster-dummy.m in Sources */,
+				7AB344ABF52DC800C1279EAE068E2C93 /* ToastView.swift in Sources */,
+				3D1CC1A8752028D6DFA23884C71FE974 /* ToastWindow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D31C137D809ED9A17BA312FF7431F0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F3CBBE62970FCAD6496AC3ED4E88B1 /* SlideMenuController.swift in Sources */,
+				7EAF7976D3305449E1A2B96D49B42E03 /* SlideMenuControllerSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A819E4FB510737ECA9501E77C65DA7D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A1944A3B23EC0E57970E3EDC0D371A /* Pods-Medilog-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		111E1A8902D5B671C10169FAC230BBF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Toaster;
+			target = 31BBC177AC0D4ACC2C6BC1CBD97AC783 /* Toaster */;
+			targetProxy = 21A13E7C41212BD41F24681AAEEE1F5A /* PBXContainerItemProxy */;
+		};
+		8DC9E94A84D41E4B78E927F16FE591D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SlideMenuControllerSwift;
+			target = 62EE81D93BBEB00FEBF3403D2A6431AE /* SlideMenuControllerSwift */;
+			targetProxy = 07BD6294E17F96E38E96BC3A76DDB78D /* PBXContainerItemProxy */;
+		};
+		A84E7864503C8710187A59D6D2B03D09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Unbox;
+			target = 2BC6D6AF2D99FF0DD7FD413FED03CF05 /* Unbox */;
+			targetProxy = CBC2565B717643750CA917B10640686A /* PBXContainerItemProxy */;
+		};
+		D02FA03DE7D71EB478AAE161D3D469E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReachabilitySwift;
+			target = 4B1D2BF478EC437CF886536CBDBBB265 /* ReachabilitySwift */;
+			targetProxy = 03B68A17342889B25F7B8A298A1D8072 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D7493346D88FB52445BF289527A9271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F4E68697010BCDACBFD3C61FAD389D2 /* ReachabilitySwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ReachabilitySwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2F956627F76C7334A04D820089F3BC43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCCF7B1652439775F5DE28012CB5450E /* Pods-Medilog.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Medilog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Medilog/Pods-Medilog.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Medilog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48AB42CB142D0119E23B398AFBC300FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F4E68697010BCDACBFD3C61FAD389D2 /* ReachabilitySwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ReachabilitySwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4EB47ADE161C691E36E198DE56FE4D0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F01BD38981342A447ADB50B24963A97D /* Toaster.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Toaster/Toaster-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toaster/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toaster/Toaster.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Toaster;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5B8121D22DDC23765193AE0D8F431800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F01BD38981342A447ADB50B24963A97D /* Toaster.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Toaster/Toaster-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toaster/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toaster/Toaster.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Toaster;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9900C5B1C4C1159AD07D249E2FE55D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D6CC1B61ED7BA0FE9FAD339E1A116EA /* Unbox.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Unbox/Unbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Unbox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Unbox/Unbox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Unbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A97571DCF789D5957B58806F9DFBD0F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3516BA8F349E7BF94270F90632097402 /* SlideMenuControllerSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SlideMenuControllerSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SlideMenuControllerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E7F8D003BED654C6086D0FAF139C187A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D6CC1B61ED7BA0FE9FAD339E1A116EA /* Unbox.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Unbox/Unbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Unbox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Unbox/Unbox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Unbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E90725059EB76541128264B7FDE5C3A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3516BA8F349E7BF94270F90632097402 /* SlideMenuControllerSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SlideMenuControllerSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SlideMenuControllerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F8EBA31DC99249B4EDA7BE9383460D5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0F3A10A0D1201E85D35EC87F3903E18 /* Pods-Medilog.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Medilog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Medilog/Pods-Medilog.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Medilog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1022DD7DE948B180E7D97AE0ECB74BC8 /* Build configuration list for PBXNativeTarget "SlideMenuControllerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97571DCF789D5957B58806F9DFBD0F2 /* Debug */,
+				E90725059EB76541128264B7FDE5C3A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A136264E441983F2E67A55A68209C45 /* Build configuration list for PBXNativeTarget "Pods-Medilog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8EBA31DC99249B4EDA7BE9383460D5C /* Debug */,
+				2F956627F76C7334A04D820089F3BC43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		223140B6694A097723F4E77C37CF54AA /* Build configuration list for PBXNativeTarget "Toaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EB47ADE161C691E36E198DE56FE4D0C /* Debug */,
+				5B8121D22DDC23765193AE0D8F431800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27961DBFF9DD6B10D74FDFDB5D2FE6D4 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D7493346D88FB52445BF289527A9271 /* Debug */,
+				48AB42CB142D0119E23B398AFBC300FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75B0C9894C9F232DB0F7913F2A68CE15 /* Build configuration list for PBXNativeTarget "Unbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9900C5B1C4C1159AD07D249E2FE55D6C /* Debug */,
+				E7F8D003BED654C6086D0FAF139C187A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

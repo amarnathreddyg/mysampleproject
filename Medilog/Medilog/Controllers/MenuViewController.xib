@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MenuViewController" customModule="PaperTrails" customModuleProvider="target">
+            <connections>
+                <outlet property="menuTableView" destination="l4a-39-qu1" id="2dd-hs-AKn"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="l4a-39-qu1">
+                    <rect key="frame" x="0.0" y="145" width="375" height="522"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="hPq-fw-2iv"/>
+                        <outlet property="delegate" destination="-1" id="04B-Ua-Wcx"/>
+                    </connections>
+                </tableView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_logo" translatesAutoresizingMaskIntoConstraints="NO" id="VE2-wk-J69">
+                    <rect key="frame" x="36" y="40" width="65" height="65"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="65" id="5eM-vK-vHv"/>
+                        <constraint firstAttribute="height" constant="65" id="Sbo-Bx-rrd"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PaperTrails" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lZF-XG-cHb">
+                    <rect key="frame" x="119" y="62" width="156" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="DCi-W0-LTM"/>
+                        <constraint firstAttribute="width" constant="156" id="h0b-K5-VYz"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FHs-sg-MKQ">
+                    <rect key="frame" x="0.0" y="143" width="375" height="2"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="dgA-VO-u3U"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.21432820431472077" green="0.21432820431472077" blue="0.21432820431472077" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="l4a-39-qu1" secondAttribute="bottom" id="71o-CU-mYX"/>
+                <constraint firstItem="lZF-XG-cHb" firstAttribute="leading" secondItem="VE2-wk-J69" secondAttribute="trailing" constant="18" id="ASb-YA-EdF"/>
+                <constraint firstItem="FHs-sg-MKQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="AfC-Fi-p1m"/>
+                <constraint firstItem="l4a-39-qu1" firstAttribute="top" secondItem="FHs-sg-MKQ" secondAttribute="bottom" id="KUk-E0-for"/>
+                <constraint firstItem="VE2-wk-J69" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="40" id="PtT-78-3CZ"/>
+                <constraint firstItem="lZF-XG-cHb" firstAttribute="centerY" secondItem="VE2-wk-J69" secondAttribute="centerY" id="SCR-WN-aTi"/>
+                <constraint firstItem="VE2-wk-J69" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="36" id="T3L-8F-g98"/>
+                <constraint firstAttribute="trailing" secondItem="l4a-39-qu1" secondAttribute="trailing" id="Vuw-ue-3jL"/>
+                <constraint firstItem="l4a-39-qu1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="iLN-vt-ueu"/>
+                <constraint firstItem="l4a-39-qu1" firstAttribute="top" secondItem="VE2-wk-J69" secondAttribute="bottom" constant="40" id="oMX-nZ-JvY"/>
+                <constraint firstAttribute="trailing" secondItem="FHs-sg-MKQ" secondAttribute="trailing" id="xKk-Zj-ebz"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_logo" width="65" height="65"/>
+    </resources>
+</document>

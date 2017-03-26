@@ -222,6 +222,7 @@ extension RegisterViewController: UITableViewDelegate, UITableViewDataSource, UI
         relaodSegment()
     }
     
+    
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         return true

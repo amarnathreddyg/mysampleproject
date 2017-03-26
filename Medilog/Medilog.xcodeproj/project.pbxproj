@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2598626E1E86C5AB00703E0F /* TextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2598626C1E86C5AB00703E0F /* TextFieldCell.swift */; };
+		2598626F1E86C5AB00703E0F /* TextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2598626D1E86C5AB00703E0F /* TextFieldCell.xib */; };
+		259862711E86CAD600703E0F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259862701E86CAD600703E0F /* RegisterViewController.swift */; };
+		259862731E86CB0D00703E0F /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259862721E86CB0D00703E0F /* Registration.swift */; };
+		259862751E86CC3E00703E0F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259862741E86CC3E00703E0F /* Extensions.swift */; };
 		25B958661E8428D9009A65D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B958651E8428D9009A65D8 /* AppDelegate.swift */; };
 		25B9586B1E8428D9009A65D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B958691E8428D9009A65D8 /* Main.storyboard */; };
 		25B9586D1E8428D9009A65D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25B9586C1E8428D9009A65D8 /* Assets.xcassets */; };
@@ -30,6 +35,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2598626C1E86C5AB00703E0F /* TextFieldCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldCell.swift; sourceTree = "<group>"; };
+		2598626D1E86C5AB00703E0F /* TextFieldCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextFieldCell.xib; sourceTree = "<group>"; };
+		259862701E86CAD600703E0F /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		259862721E86CB0D00703E0F /* Registration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
+		259862741E86CC3E00703E0F /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		25B958621E8428D9009A65D8 /* Medilog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Medilog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25B958651E8428D9009A65D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25B9586A1E8428D9009A65D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -120,6 +130,7 @@
 			children = (
 				25B9587C1E842A2B009A65D8 /* BaseViewController.swift */,
 				25B9587D1E842A2B009A65D8 /* LoginViewController.swift */,
+				259862701E86CAD600703E0F /* RegisterViewController.swift */,
 				25B9587E1E842A2B009A65D8 /* MenuViewController.swift */,
 				25B9587F1E842A2B009A65D8 /* MenuViewController.xib */,
 			);
@@ -132,6 +143,7 @@
 				25B958951E842A56009A65D8 /* Constants.swift */,
 				25B958961E842A56009A65D8 /* Enums.swift */,
 				25B958981E842A56009A65D8 /* Utilities.swift */,
+				259862741E86CC3E00703E0F /* Extensions.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -159,6 +171,7 @@
 		25B958A61E842A90009A65D8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				259862721E86CB0D00703E0F /* Registration.swift */,
 				25B958AD1E842A90009A65D8 /* Trip.swift */,
 			);
 			path = Models;
@@ -169,6 +182,8 @@
 			children = (
 				25B958BA1E843063009A65D8 /* MenuTableViewCell.swift */,
 				25B958BB1E843063009A65D8 /* MenuTableViewCell.xib */,
+				2598626C1E86C5AB00703E0F /* TextFieldCell.swift */,
+				2598626D1E86C5AB00703E0F /* TextFieldCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -260,6 +275,7 @@
 				25B9586D1E8428D9009A65D8 /* Assets.xcassets in Resources */,
 				25B9586B1E8428D9009A65D8 /* Main.storyboard in Resources */,
 				25B9588B1E842A2B009A65D8 /* MenuViewController.xib in Resources */,
+				2598626F1E86C5AB00703E0F /* TextFieldCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,15 +336,19 @@
 			files = (
 				25B9588A1E842A2B009A65D8 /* MenuViewController.swift in Sources */,
 				25B9589C1E842A56009A65D8 /* Utilities.swift in Sources */,
+				2598626E1E86C5AB00703E0F /* TextFieldCell.swift in Sources */,
 				25B958881E842A2B009A65D8 /* BaseViewController.swift in Sources */,
 				25B9587A1E8429F5009A65D8 /* ApiManager.swift in Sources */,
 				25B958B41E842A90009A65D8 /* Trip.swift in Sources */,
 				25B958A51E842A66009A65D8 /* README.mdown in Sources */,
 				25B9589A1E842A56009A65D8 /* Enums.swift in Sources */,
 				25B958C91E8430AE009A65D8 /* MBProgressHUD.m in Sources */,
+				259862711E86CAD600703E0F /* RegisterViewController.swift in Sources */,
 				25B958891E842A2B009A65D8 /* LoginViewController.swift in Sources */,
+				259862751E86CC3E00703E0F /* Extensions.swift in Sources */,
 				25B958661E8428D9009A65D8 /* AppDelegate.swift in Sources */,
 				25B958C11E843063009A65D8 /* MenuTableViewCell.swift in Sources */,
+				259862731E86CB0D00703E0F /* Registration.swift in Sources */,
 				25B958991E842A56009A65D8 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

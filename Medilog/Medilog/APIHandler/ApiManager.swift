@@ -125,15 +125,16 @@ class ApiManager {
         return urlComponents.url
     }
     
+    func login(email: String, password: String, completion: @escaping (_ success: Bool, _ object: AnyObject?) -> ()) {
+        let loginObject = ["email": email, "password": password]
+        post(URI.login.rawValue, params: loginObject as AnyObject?, completion: completion)
+    }
+    
     func register(phoneNumber: String, completion: @escaping (_ success: Bool, _ object: AnyObject?) -> ()) {
         let loginObject = ["role": "parent", "phone_number": phoneNumber]
         post(URI.login.rawValue, params: loginObject as AnyObject?, completion: completion)
     }
     
-    func verifyOTP(phoneNumber: String, otp: String, completion: @escaping (_ success: Bool, _ object: AnyObject?) -> ()) {
-        let loginObject = ["role": "parent", "phone_number": phoneNumber, "otp": otp]
-        post(URI.verifyOTP.rawValue, params: loginObject as AnyObject?, completion: completion)
-    }
     
     func getTrips(isHistory: Bool, completion: @escaping (_ success: Bool, _ object: AnyObject?) -> ()) {
         var params: [String: String]?

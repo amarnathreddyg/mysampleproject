@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MenuViewController" customModule="PaperTrails" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MenuViewController" customModule="Medilog" customModuleProvider="target">
             <connections>
                 <outlet property="menuTableView" destination="l4a-39-qu1" id="2dd-hs-AKn"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -28,14 +28,15 @@
                         <outlet property="delegate" destination="-1" id="04B-Ua-Wcx"/>
                     </connections>
                 </tableView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_logo" translatesAutoresizingMaskIntoConstraints="NO" id="VE2-wk-J69">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VE2-wk-J69">
                     <rect key="frame" x="36" y="40" width="65" height="65"/>
+                    <color key="backgroundColor" red="1" green="0.2250722939" blue="0.35969960109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="65" id="5eM-vK-vHv"/>
                         <constraint firstAttribute="height" constant="65" id="Sbo-Bx-rrd"/>
                     </constraints>
                 </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PaperTrails" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lZF-XG-cHb">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Medilog" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lZF-XG-cHb">
                     <rect key="frame" x="119" y="62" width="156" height="21"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="21" id="DCi-W0-LTM"/>
@@ -72,7 +73,4 @@
             <point key="canvasLocation" x="33.5" y="53.5"/>
         </view>
     </objects>
-    <resources>
-        <image name="icon_logo" width="65" height="65"/>
-    </resources>
 </document>

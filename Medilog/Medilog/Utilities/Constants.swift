@@ -14,4 +14,8 @@ import UIKit
 let baseUrl = ""
 let headers = ["Accept" : "application/json", "Content-Type" : "application/json"]
 
+let MaxEmailCharacters = 254
+let MaxNameCharacters = 35
+let MaxPasswordCharacters = 64
+let MinPasswordCharacters = 6
 
